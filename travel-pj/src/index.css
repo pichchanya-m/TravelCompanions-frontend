@@ -1,0 +1,25 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*underline block each nav*/
+.active hr{
+  @apply block 
+}
+/*hide scroll bar*/
+::-webkit-scrollbar{
+  @apply hidden
+}
+body {
+  @apply font-sans; 
+}
+
+@media(max-width:740px){
+.active p{
+  @apply text-white bg-primary
+}
+}
+
+

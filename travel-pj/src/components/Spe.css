@@ -1,0 +1,45 @@
+.country-icon {
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    object-fit: contain; /* This will maintain aspect ratio */
+  }
+  
+  :root {
+    --primary-color: #16A085; /* Define your primary color here */
+    --yellow-color: #FBC02D;
+    
+  }
+  
+  .custom-text-shadow {
+    text-shadow: 0 0 50px var(--primary-color);
+   
+    
+  }
+  .custom-text-yellow {
+  text-shadow: 0 0 50px var(--yellow-color);
+  }
+
+ 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Start hidden */
+  animation: fadeInUp 0.6s forwards; /* Use the animation */
+}
+
+.fade-in.visible {
+  opacity: 1; /* Show when visible */
+}
+
+  
+
+  
