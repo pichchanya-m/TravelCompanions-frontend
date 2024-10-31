@@ -11,6 +11,7 @@ This website allows users to search for companions in a specific country and boo
 
 - **Frontend:** React.js with Vite
 - **Styling:** Tailwind CSS for responsive design
+- **Deployment:** Vercel for hosting the website application.
 - **Backend:** Node.js with Express.js (in progress)
 - **Database:** MongoDB (in progress)
 
